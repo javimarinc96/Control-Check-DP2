@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+
+		<definition name="miscellaneousData/create" extends="master.page">	
+		<put-attribute name="title" value="Crear Datos Variados" />
+		<put-attribute name="body" value="/views/miscellaneousData/create.jsp" />
+	</definition>
+	<definition name="miscellaneousData/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de Datos Variados" />
+		<put-attribute name="body" value="/views/miscellaneousData/list.jsp" />
+	</definition>
+
+	
+	<definition name="miscellaneousData/edit" extends="master.page">	
+		<put-attribute name="title" value="Editar Datos Variados" />
+		<put-attribute name="body" value="/views/miscellaneousData/edit.jsp" />
+	</definition>
+
+<definition name="miscellaneousData/show" extends="master.page">
+		<put-attribute name="title" value="Mostrar Datos Variados" />
+		<put-attribute name="body" value="/views/miscellaneousData/display.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

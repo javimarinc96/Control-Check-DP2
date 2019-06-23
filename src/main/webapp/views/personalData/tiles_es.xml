@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+
+		<definition name="personalData/create" extends="master.page">	
+		<put-attribute name="title" value="Crear Datos Personales" />
+		<put-attribute name="body" value="/views/personalData/create.jsp" />
+	</definition>
+
+	<definition name="personalData/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de Datos Personales" />
+		<put-attribute name="body" value="/views/personalData/list.jsp" />
+	</definition>
+
+	
+	<definition name="personalData/edit" extends="master.page">	
+		<put-attribute name="title" value="Editar Datos Personales" />
+		<put-attribute name="body" value="/views/personalData/edit.jsp" />
+	</definition>
+
+<definition name="personalData/show" extends="master.page">
+		<put-attribute name="title" value="Mostrar Datos Personales" />
+		<put-attribute name="body" value="/views/personalData/display.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
