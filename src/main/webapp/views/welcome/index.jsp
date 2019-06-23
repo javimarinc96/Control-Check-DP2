@@ -25,7 +25,6 @@
     <p>${welcomeES}</p>
 </jstl:if>
 
-<p> PRUEBA </p>
 
 <p><a href="<spring:url value='/cookies.do'/>"><spring:message code="welcome.cookies" /></a></p>
 
